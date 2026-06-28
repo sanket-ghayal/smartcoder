@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaScript Tutorial | SmartCoder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="Images/logo1.png" alt="Logo">
+
+<h2>SmartCoder</h2>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="home.html">Home</a></li>
+
+<li><a href="java.html">Java</a></li>
+
+<li><a href="c.html">C</a></li>
+
+<li><a href="ht.html">HTML</a></li>
+
+<li><a href="css.html">CSS</a></li>
+
+<li><a href="js.html" class="active">JavaScript</a></li>
+
+<li><a href="python.html">Python</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Learn JavaScript</h1>
+
+<p>
+
+JavaScript is the programming language of the web. It makes websites interactive and dynamic.
+
+</p>
+
+<a href="#intro" class="btn">
+
+Start Learning
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="Images/javascript-1.png" alt="JavaScript">
+
+</div>
+
+</section>
+
+<!-- Introduction -->
+
+<section id="intro" class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>What is JavaScript?</h2>
+
+<p>
+
+JavaScript is a lightweight scripting language used to create interactive web applications.
+
+</p>
+
+<ul>
+
+<li>✔ Fast</li>
+
+<li>✔ Lightweight</li>
+
+<li>✔ Dynamic</li>
+
+<li>✔ Cross Platform</li>
+
+<li>✔ Easy to Learn</li>
+
+</ul>
+
+</div>
+
+<div class="about-image">
+
+<img src="Images/js-file-2.png" alt="JavaScript">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Features -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Features of JavaScript
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<h3>Dynamic</h3>
+
+<p>Create interactive websites.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Client Side</h3>
+
+<p>Runs inside the browser.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Lightweight</h3>
+
+<p>Easy and fast scripting language.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Cross Platform</h3>
+
+<p>Works on every operating system.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Object Oriented</h3>
+
+<p>Supports OOP concepts.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Event Driven</h3>
+
+<p>Responds to user actions.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- JavaScript Syntax -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>JavaScript Syntax</h2>
+
+<pre>
+let name = "SmartCoder";
+
+console.log(name);
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Variables -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Variables
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<h3>let</h3>
+
+<pre>
+let age = 20;
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>const</h3>
+
+<pre>
+const pi = 3.14;
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>var</h3>
+
+<pre>
+var city = "Pune";
+</pre>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= DATA TYPES ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+JavaScript Data Types
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+<h3>String</h3>
+<pre>
+let name = "SmartCoder";
+</pre>
+</div>
+
+<div class="card">
+<h3>Number</h3>
+<pre>
+let age = 20;
+</pre>
+</div>
+
+<div class="card">
+<h3>Boolean</h3>
+<pre>
+let isStudent = true;
+</pre>
+</div>
+
+<div class="card">
+<h3>Array</h3>
+<pre>
+let colors =
+["Red","Blue"];
+</pre>
+</div>
+
+<div class="card">
+<h3>Object</h3>
+<pre>
+let person={
+name:"Rahul"
+};
+</pre>
+</div>
+
+<div class="card">
+<h3>Null</h3>
+<pre>
+let value = null;
+</pre>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= OPERATORS ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>Operators</h2>
+
+<pre>
+let a=10;
+let b=5;
+
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+</pre>
+
+<p>
+
+JavaScript supports Arithmetic, Comparison, Assignment and Logical operators.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= IF ELSE ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+If Else
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre>
+let age=18;
+
+if(age>=18){
+
+console.log("Adult");
+
+}else{
+
+console.log("Minor");
+
+}
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+The if statement executes code based on a condition.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LOOPS ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Loops
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<h3>For Loop</h3>
+
+<pre>
+for(let i=1;i<=5;i++){
+
+console.log(i);
+
+}
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<h3>While Loop</h3>
+
+<pre>
+let i=1;
+
+while(i<=5){
+
+i++;
+
+}
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<h3>Do While</h3>
+
+<pre>
+do{
+
+i++;
+
+}
+
+while(i<=5);
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FUNCTIONS ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Functions
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<pre>
+function add(a,b){
+
+return a+b;
+
+}
+
+add(10,20);
+</pre>
+
+</div>
+
+<div class="card">
+
+<p>
+
+Functions help reuse code multiple times.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ARRAYS ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>Arrays</h2>
+
+<pre>
+let fruits=[
+
+"Apple",
+
+"Mango",
+
+"Banana"
+
+];
+
+console.log(fruits[0]);
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= OBJECTS ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Objects
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre>
+let student={
+
+name:"Rahul",
+
+age:20
+
+};
+
+console.log(student.name);
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+Objects store data as key-value pairs.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= DOM ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+DOM Manipulation
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<pre>
+document
+.getElementById("demo")
+.innerHTML="Hello";
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<p>
+
+DOM allows JavaScript to change HTML and CSS dynamically.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= EVENTS ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+JavaScript Events
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<h3>onclick</h3>
+
+<pre>
+<button
+onclick="hello()">
+Click
+</button>
+</pre>
+
+</div>
+
+<div class="card">
+
+<h3>onmouseover</h3>
+
+<pre>
+<p
+onmouseover="changeColor()">
+Hover Me
+</p>
+</pre>
+
+</div>
+
+<div class="card">
+
+<h3>onchange</h3>
+
+<pre>
+<input
+onchange="show()">
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EVENT LISTENER ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>Event Listener</h2>
+
+<pre>
+const btn =
+document
+.getElementById("btn");
+
+btn.addEventListener(
+"click",
+function(){
+
+alert("Button Clicked");
+
+});
+</pre>
+
+<p>
+
+Event listeners attach events without using inline HTML.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ARROW FUNCTION ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Arrow Function
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre>
+const add=(a,b)=>{
+
+return a+b;
+
+};
+
+console.log(add(5,10));
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+Arrow functions provide shorter syntax.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROMISE ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Promises
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<pre>
+let promise=
+new Promise(
+
+(resolve,reject)=>{
+
+resolve("Success");
+
+});
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<p>
+
+Promises handle asynchronous operations.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ASYNC AWAIT ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Async / Await
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<pre>
+async function test(){
+
+return "Hello";
+
+}
+</pre>
+
+</div>
+
+<div class="card">
+
+<pre>
+async function show(){
+
+let data=
+await test();
+
+console.log(data);
+
+}
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ES6 FEATURES ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>ES6 Features</h2>
+
+<ul>
+
+<li>✔ let & const</li>
+
+<li>✔ Arrow Functions</li>
+
+<li>✔ Template Literals</li>
+
+<li>✔ Destructuring</li>
+
+<li>✔ Modules</li>
+
+<li>✔ Classes</li>
+
+<li>✔ Spread Operator</li>
+
+<li>✔ Promises</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= BEST PRACTICES ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Best Practices
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<h3>Use const & let</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Avoid Global Variables</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Write Clean Code</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Comment Important Logic</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h3>SmartCoder</h3>
+
+<p>
+
+Learn JavaScript from Beginner to Advanced.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Topics</h3>
+
+<ul>
+
+<li>Variables</li>
+
+<li>Functions</li>
+
+<li>Loops</li>
+
+<li>DOM</li>
+
+<li>Events</li>
+
+<li>Async JavaScript</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email: sanketghayal3@gmail.com</p>
+
+<p>Phone: +91 8605455827</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 SmartCoder | All Rights Reserved.
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

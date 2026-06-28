@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial | SmartCoder</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="Images/logo1.png" alt="Logo">
+<h2>SmartCoder</h2>
+</div>
+
+<ul class="nav-links">
+<li><a href="home.html">Home</a></li>
+<li><a href="java.html">Java</a></li>
+<li><a href="c.html">C</a></li>
+<li><a href="ht.html" class="active">HTML</a></li>
+<li><a href="css.html">CSS</a></li>
+<li><a href="js.html">JavaScript</a></li>
+<li><a href="python.html">Python</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Learn HTML</h1>
+
+<p>
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the basic structure of every website.
+</p>
+
+<a href="#intro" class="btn">Start Learning</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="Images/html-1.png" alt="HTML">
+
+</div>
+
+</section>
+
+<!-- Introduction -->
+
+<section id="intro" class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>What is HTML?</h2>
+
+<p>
+HTML stands for HyperText Markup Language. It is used to create and structure content on web pages.
+</p>
+
+<p>
+HTML works together with CSS and JavaScript to build modern responsive websites.
+</p>
+
+<ul>
+<li>✔ Easy to Learn</li>
+<li>✔ Platform Independent</li>
+<li>✔ Used by Every Website</li>
+<li>✔ SEO Friendly</li>
+<li>✔ Supports Images, Audio & Video</li>
+</ul>
+
+</div>
+
+<div class="about-image">
+
+<img src="Images/html-2.png" alt="HTML">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Applications -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Applications of HTML
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+<i class="fas fa-globe"></i>
+<h3>Websites</h3>
+<p>Create beautiful and responsive websites.</p>
+</div>
+
+<div class="why-card">
+<i class="fas fa-shopping-cart"></i>
+<h3>E-Commerce</h3>
+<p>Build online shopping websites.</p>
+</div>
+
+<div class="why-card">
+<i class="fas fa-blog"></i>
+<h3>Blogs</h3>
+<p>Create blogs and news portals.</p>
+</div>
+
+<div class="why-card">
+<i class="fas fa-graduation-cap"></i>
+<h3>Education</h3>
+<p>Develop online learning platforms.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Features -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Features of HTML
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+<h3>Simple</h3>
+<p>Very easy to understand and learn.</p>
+</div>
+
+<div class="card">
+<h3>Lightweight</h3>
+<p>Loads quickly in every browser.</p>
+</div>
+
+<div class="card">
+<h3>Platform Independent</h3>
+<p>Runs on every operating system.</p>
+</div>
+
+<div class="card">
+<h3>Hyperlinks</h3>
+<p>Connect one page with another.</p>
+</div>
+
+<div class="card">
+<h3>Multimedia</h3>
+<p>Add images, audio and videos.</p>
+</div>
+
+<div class="card">
+<h3>SEO Friendly</h3>
+<p>Helps search engines understand pages.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- HTML Basics -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+HTML Basics
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+<h3>HTML Document</h3>
+<p>Every page starts with &lt;!DOCTYPE html&gt;.</p>
+</div>
+
+<div class="card">
+<h3>Elements</h3>
+<p>HTML uses opening and closing tags.</p>
+</div>
+
+<div class="card">
+<h3>Attributes</h3>
+<p>Provide extra information like class, id and src.</p>
+</div>
+
+<div class="card">
+<h3>Browser</h3>
+<p>Browsers read HTML and display web pages.</p>
+</div>
+
+</div>
+
+</section>
+<!-- ================= HTML DOCUMENT STRUCTURE ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>HTML Document Structure</h2>
+
+<p>A basic HTML document contains the following elements:</p>
+
+<pre style="background:#1e293b;color:#fff;padding:20px;border-radius:12px;overflow:auto;">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Page</title>
+</head>
+
+<body>
+
+    Hello World
+
+</body>
+
+</html>
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HEADINGS ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">HTML Headings</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<pre style="text-align:left;">
+<h1>Main Heading</h1>
+<h2>Heading</h2>
+<h3>Heading</h3>
+<h4>Heading</h4>
+<h5>Heading</h5>
+<h6>Heading</h6>
+</pre>
+
+</div>
+
+<div class="card">
+
+<p>
+
+HTML provides six heading tags from h1 to h6.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PARAGRAPH ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Paragraph
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre style="text-align:left;">
+<p>
+
+This is a paragraph.
+
+</p>
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+The paragraph tag displays text content.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LISTS ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Lists
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<h3>Ordered List</h3>
+
+<pre style="text-align:left;">
+<ol>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+</ol>
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<h3>Unordered List</h3>
+
+<pre style="text-align:left;">
+<ul>
+
+<li>Java</li>
+
+<li>Python</li>
+
+</ul>
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<h3>Description List</h3>
+
+<pre style="text-align:left;">
+<dl>
+
+<dt>HTML</dt>
+
+<dd>Markup Language</dd>
+
+</dl>
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LINKS ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Hyperlinks
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<pre style="text-align:left;">
+<a href="home.html">
+
+Home
+
+</a>
+</pre>
+
+</div>
+
+<div class="card">
+
+<p>
+
+The anchor tag creates hyperlinks between pages.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= IMAGES ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>Images</h2>
+
+<pre style="background:#1e293b;color:#fff;padding:20px;border-radius:12px;">
+<img src="image.jpg"
+alt="Image">
+</pre>
+
+<p>
+
+The image tag displays images on webpages.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TABLE ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Tables
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre style="text-align:left;">
+<table border="1">
+
+<tr>
+
+<th>Name</th>
+
+<th>Age</th>
+
+</tr>
+
+<tr>
+
+<td>Rahul</td>
+
+<td>20</td>
+
+</tr>
+
+</table>
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+Tables organize data into rows and columns.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FORMS ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Forms
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<pre style="text-align:left;">
+<form>
+
+<input
+type="text">
+
+</form>
+</pre>
+
+</div>
+
+<div class="why-card">
+
+<h3>Input Types</h3>
+
+<p>
+
+Text, Email, Password, Number, Date, Radio, Checkbox.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>Button</h3>
+
+<pre style="text-align:left;">
+<button>
+
+Submit
+
+</button>
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SEMANTIC TAGS ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+Semantic Tags
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card"><h3>&lt;header&gt;</h3></div>
+
+<div class="card"><h3>&lt;nav&gt;</h3></div>
+
+<div class="card"><h3>&lt;section&gt;</h3></div>
+
+<div class="card"><h3>&lt;article&gt;</h3></div>
+
+<div class="card"><h3>&lt;aside&gt;</h3></div>
+
+<div class="card"><h3>&lt;footer&gt;</h3></div>
+
+</div>
+
+</section>
+<!-- ================= AUDIO ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>HTML Audio</h2>
+
+<p>The <b>&lt;audio&gt;</b> tag is used to play audio files.</p>
+
+<pre style="background:#1e293b;color:#fff;padding:20px;border-radius:12px;overflow:auto;">
+<audio controls>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= VIDEO ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+HTML Video
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<pre style="text-align:left;">
+<video width="320"
+controls>
+
+<source src="video.mp4"
+type="video/mp4">
+
+</video>
+</pre>
+
+</div>
+
+<div class="compiler-card">
+
+<p>
+
+The <b>&lt;video&gt;</b> tag displays videos directly inside a webpage.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= DIV & SPAN ================= -->
+
+<section class="why">
+
+<h2 class="section-title">
+
+Div and Span
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<h3>&lt;div&gt;</h3>
+
+<p>
+
+A block-level container used to group HTML elements.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>&lt;span&gt;</h3>
+
+<p>
+
+An inline container used for styling small portions of text.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>Example</h3>
+
+<pre style="text-align:left;">
+<div>
+
+<span>Hello</span>
+
+</div>
+</pre>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HTML ENTITIES ================= -->
+
+<section class="courses">
+
+<h2 class="section-title">
+
+HTML Entities
+
+</h2>
+
+<div class="course-grid">
+
+<div class="card">
+
+<h3>&amp;lt;</h3>
+
+<p>Displays &lt;</p>
+
+</div>
+
+<div class="card">
+
+<h3>&amp;gt;</h3>
+
+<p>Displays &gt;</p>
+
+</div>
+
+<div class="card">
+
+<h3>&amp;amp;</h3>
+
+<p>Displays &amp;</p>
+
+</div>
+
+<div class="card">
+
+<h3>&amp;copy;</h3>
+
+<p>Displays ©</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HTML5 FEATURES ================= -->
+
+<section class="about">
+
+<div class="container">
+
+<div class="about-text">
+
+<h2>HTML5 Features</h2>
+
+<ul>
+
+<li>✔ Semantic Elements</li>
+
+<li>✔ Audio & Video Support</li>
+
+<li>✔ Canvas Graphics</li>
+
+<li>✔ SVG Graphics</li>
+
+<li>✔ Drag and Drop API</li>
+
+<li>✔ Local Storage</li>
+
+<li>✔ Geolocation API</li>
+
+<li>✔ Responsive Forms</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= BEST PRACTICES ================= -->
+
+<section class="compiler">
+
+<h2 class="section-title">
+
+Best Practices
+
+</h2>
+
+<div class="compiler-grid">
+
+<div class="compiler-card">
+
+<h3>Use Semantic Tags</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Write Clean Code</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Always Add alt Attribute</h3>
+
+</div>
+
+<div class="compiler-card">
+
+<h3>Validate HTML</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-container">
+
+<div>
+
+<h3>SmartCoder</h3>
+
+<p>Learn Web Development Easily.</p>
+
+</div>
+
+<div>
+
+<h3>HTML Topics</h3>
+
+<ul>
+
+<li>Introduction</li>
+
+<li>Elements</li>
+
+<li>Tables</li>
+
+<li>Forms</li>
+
+<li>Multimedia</li>
+
+<li>HTML5</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>Email: sanketghayal3@gmail.com</p>
+
+<p>Phone: +91 8605455827</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 SmartCoder | All Rights Reserved.
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
