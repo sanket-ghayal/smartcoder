@@ -121,15 +121,18 @@ git clone https://github.com/sanket-ghayal/SmartCoder.git
 ---
 
 ## 📸 Screenshots
+---
 
-[Home Page](images/home-page.png)
-[java Page](images/java-page.png)
-[c Page](images/c-page.png)
-[html Page](images/html-page.png)
-[css Page](images/css-page.png)
-[js Page](images/js-page.png)
-[python Page](images/python-page.png)
-[contact Page](images/contact-page.png)
+- [Home Page](images/home-page.png)
+- [java Page](images/java-page.png)
+- [c Page](images/c-page.png)
+- [html Page](images/html-page.png)
+- [css Page](images/css-page.png)
+- [js Page](images/js--page.png)
+- [python Page](images/python-page.png)
+- [contact Page](images/contact-page.png)
+
+---
 
 ## 🎯 Future Improvements
 
